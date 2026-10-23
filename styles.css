@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+    color: #cbd5e1;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: #f8fafc;
+    font-size: 32px;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background-color: #1e293b;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    width: 100%;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #475569;
+    border-radius: 8px;
+}
+
+legend {
+    padding: 0 10px;
+    color: #f8fafc;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+label {
+    color: #cbd5e1;
+}
+
+#length {
+    width: 100%;
+    padding: 10px;
+    background-color: #0f172a;
+    color: #f8fafc;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #3b82f6;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"] {
+    margin-top: 5px;
+    background-color: #3b82f6;
+}
+
+button[type="submit"]:hover {
+    background-color: #2563eb;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#generatedPassword {
+    width: 100%;
+    padding: 12px;
+    background-color: #0f172a;
+    color: #f8fafc;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#copyButton {
+    background-color: #10b981;
+}
+
+#copyButton:hover {
+    background-color: #059669;
+}
